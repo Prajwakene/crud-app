@@ -11,23 +11,24 @@
   - recordRoutes.js
 - views/
   - (Your frontend code)
-- app.js
-- config.js
-- database.js
+ 
 # Frontend
-src/
-  components/
-    Auth/
-      Login.js
-      Registration.js
-    Users/
-      UserList.js
-      UserItem.js
-      CreateUser.js
-      EditUser.js
-    App.js
-    NotFound.js
-  App.css
-  App.js
+- src/
+ - components/
+   - Auth/
+     - Login.js
+     - Registration.js
+    - Users/
+    - UserList.js
+     - UserItem.js
+     - CreateUser.js
+     - EditUser.js
+    - App.js
+   - NotFound.js
+  - App.css
+  - App.js
+  - index.css
+  - index.js
+
   index.css
   index.js
