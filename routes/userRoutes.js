@@ -6,7 +6,18 @@ const {
   getUserById,
   updateUser,
   deleteUser,
-} = require('./controllers/userController');
+} = require('../controllers/userController'); // Assuming userController.js is in the same directory as userRoutes.js
+
+// Middleware for handling errors
+const handleError = (res, error) => {
+  console.error(error);
+  return res.status(500).json({ message: 'Server Error' });
+};
+
+// Middleware for handling async functions
+const asyncHandler = (fn) => (req, res, next) => {
+  Promise.resolve(fn(req, res, next)).catch((error) => handleError(res, error));
+};
 
 // Create a new user
 router.post('/users', async (req, res) => {
