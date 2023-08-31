@@ -1,5 +1,5 @@
 # crud-app
-
+# Backend
 - controllers/
   - UserController.js
   - RecordController.js
@@ -14,25 +14,20 @@
 - app.js
 - config.js
 - database.js
-
-
-- src/
-  - components/
-    - User/
-      - Login.js
-      - Registration.js
-    - Record/
-      - CreateRecord.js
-      - RecordList.js
-      - RecordDetail.js
-    - Shared/
-      - Header.js
-  - controllers/
-    - UserController.js
-    - RecordController.js
-  - models/
-    - UserModel.js
-    - RecordModel.js
-  - views/
-    - (Your React components)
-  - App.js
+# Frontend
+src/
+  components/
+    Auth/
+      Login.js
+      Registration.js
+    Users/
+      UserList.js
+      UserItem.js
+      CreateUser.js
+      EditUser.js
+    App.js
+    NotFound.js
+  App.css
+  App.js
+  index.css
+  index.js

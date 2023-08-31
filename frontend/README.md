@@ -1,5 +1,22 @@
 # Getting Started with Create React App
 
+src/
+  components/
+    Auth/
+      Login.js
+      Registration.js
+    Users/
+      UserList.js
+      UserItem.js
+      CreateUser.js
+      EditUser.js
+    App.js
+    NotFound.js
+  App.css
+  App.js
+  index.css
+  index.js
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
