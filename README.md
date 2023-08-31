@@ -1,1 +1,26 @@
 # crud-app
+
+- project-root/
+  - backend/
+    - controllers/
+      - authController.js
+      - recordController.js
+    - models/
+      - User.js
+      - Record.js
+    - routes/
+      - authRoutes.js
+      - recordRoutes.js
+    - app.js
+  - frontend/
+    - src/
+      - components/
+        - Login.js
+        - Register.js
+        - RecordList.js
+        - RecordForm.js
+      - App.js
+      - index.js
+    - package.json
+  - database/
+    - schema.sql
