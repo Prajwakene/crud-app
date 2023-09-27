@@ -29,9 +29,3 @@
   - App.js
   - index.css
   - index.js
-<<<<<<< HEAD
-=======
-
-  index.css
-  index.js
->>>>>>> 277729bd14f27a63097b35c8faed1c18a3015e08
